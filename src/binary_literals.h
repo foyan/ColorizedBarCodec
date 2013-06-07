@@ -7,9 +7,9 @@ template<longest_t N>
 class bin {
 
 public:
-        enum {
-                value = (N % 8) + (bin<N / 8>::value << 1)
-        };
+	enum {
+		value = (N % 8) + (bin<N / 8>::value << 1)
+    };
 
 };
 
@@ -17,9 +17,9 @@ template<>
 class bin<0> {
 
 public:
-        enum {
-                value = 0
-        };
+    enum {
+        value = 0
+    };
 
 };
 

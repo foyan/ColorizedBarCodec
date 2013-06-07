@@ -1,11 +1,7 @@
-/*
- * rgb.cpp
- *
- *  Created on: Jun 6, 2013
- *      Author: florian
- */
-
+#include <iostream>
 #include "rgb.h"
+
+using namespace std;
 
 rgb::rgb(short r, short g, short b) {
 	this->_r = r;
@@ -13,8 +9,10 @@ rgb::rgb(short r, short g, short b) {
 	this->_b = b;
 }
 
-rgb::rgb() : rgb(0, 0, 0) {
-
+rgb::rgb() {
+	this->_r = 0;
+	this->_g = 0;
+	this->_b = 0;
 }
 
 void rgb::r(short r) {
@@ -27,12 +25,16 @@ void rgb::g(short g) {
 	this->_g = g;
 }
 
-short rgb::r() {
+short rgb::r() const {
 	return this->_r;
 }
-short rgb::g() {
+short rgb::g() const {
 	return this->_g;
 }
-short rgb::b() {
+short rgb::b() const {
 	return this->_b;
+}
+
+ostream& operator<<(ostream &stream, const rgb &a) {
+	return stream << "rgb(" << a.r() << "," << a.g() << "," << a.b() << ")";
 }
