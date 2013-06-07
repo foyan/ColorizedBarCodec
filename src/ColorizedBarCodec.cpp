@@ -8,7 +8,7 @@ using namespace std;
 int main() {
 
 	colorizer col;
-	pair<rgb, rgb> colors = col.get_colors('F');
+	pair<rgb, rgb> colors = col.get_colors('K');
 
 	cout << colors.first << "/" << colors.second << endl;
 
