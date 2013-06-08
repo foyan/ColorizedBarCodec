@@ -27,5 +27,14 @@ private:
 	short _b;
 };
 
+namespace std {
+
+	template<> struct less<rgb> {
+		bool operator() (const rgb& a, const rgb& b) {
+			return a.r() < b.r() || a.g() < b.g() || a.b() < b.b();
+		}
+	};
+
+}
 
 #endif /* RGB_H_ */

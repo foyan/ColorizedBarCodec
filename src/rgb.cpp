@@ -38,3 +38,4 @@ short rgb::b() const {
 ostream& operator<<(ostream &stream, const rgb &a) {
 	return stream << "rgb(" << a.r() << "," << a.g() << "," << a.b() << ")";
 }
+
