@@ -29,8 +29,6 @@ pair<rgb, rgb> colorizer::get_colors(unsigned short byte) {
 	unsigned short low = byte & binary(00001111);
 	unsigned short high = (byte & binary(11110000)) >> 4;
 
-	std::cout << byte << "/" << low << "/" << high << std::endl;
-
 	return pair<rgb, rgb>(this->_nibbles->left.at(low), this->_nibbles->left.at(high));
 }
 
