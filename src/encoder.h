@@ -9,7 +9,8 @@ using namespace std;
 class encoder : public task {
 
 public:
-	void* get_input(int slice_index, int slice_count);
+	void* get_input(int argc, char* argv[]);
+	void* get_sliced_input(int slice_index, int slice_count);
 	void* get_output();
 
 	string str();

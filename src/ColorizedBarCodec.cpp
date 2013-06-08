@@ -3,6 +3,8 @@
 #include "rgb.h"
 #include "colorizer.h"
 #include "charencoding.h"
+#include "taskfactory.h"
+#include "task.h"
 
 #include <png++/png.hpp>
 #include <boost/filesystem.hpp>
@@ -11,20 +13,11 @@ using namespace std;
 
 int main(int argc, char* argv[]) {
 
+	task_factory factory;
+	task* t = factory.create_task(argc, argv);
+
 	colorizer col;
 	char_encoding enc;
-
-	string file = argv[1];
-
-	boost::filesystem::path p;
-	p /= file;
-
-	cout << file;
-
-	string extension = p.extension().string();
-	transform(extension.begin(), extension.end(), extension.begin(), ::tolower);
-
-	string str = "Hallo, jetzt kommt dann bald Fussball. Fussball ist eine supercoole Geschichte. Ich mag Fussball. Fussball Fussball Fussbal!";
 
 	png::image<png::rgb_pixel> image(102, 100);
 
@@ -44,6 +37,8 @@ int main(int argc, char* argv[]) {
 		image.set_pixel(x+2, y+0, png::rgb_pixel(colors.second.r(), colors.second.g(), colors.second.b()));
 
 	}
+
+	delete t;
 
 	image.write("out.png");
 
