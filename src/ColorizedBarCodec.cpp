@@ -5,13 +5,24 @@
 #include "charencoding.h"
 
 #include <png++/png.hpp>
+#include <boost/filesystem.hpp>
 
 using namespace std;
 
-int main() {
+int main(int argc, char* argv[]) {
 
 	colorizer col;
 	char_encoding enc;
+
+	string file = argv[1];
+
+	boost::filesystem::path p;
+	p /= file;
+
+	cout << file;
+
+	string extension = p.extension().string();
+	transform(extension.begin(), extension.end(), extension.begin(), ::tolower);
 
 	string str = "Hallo, jetzt kommt dann bald Fussball. Fussball ist eine supercoole Geschichte. Ich mag Fussball. Fussball Fussball Fussbal!";
 
