@@ -31,6 +31,8 @@ private:
 	string _png_filename;
 	vector<pair<rgb, rgb>> _pixels;
 
+	string encode_header(long long length);
+
 };
 
 #endif /* ENCODER_H_ */

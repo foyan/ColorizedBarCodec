@@ -24,7 +24,9 @@ void encoder::init(int argc, char* argv[]) {
 	stringstream buffer;
 	buffer << t.rdbuf();
 
-	this->_str = buffer.str();
+	string s = buffer.str();
+
+	this->_str = this->encode_header(s.length()) + buffer.str();
 
 	boost::filesystem::path p;
 	p /= file;
@@ -92,6 +94,16 @@ void encoder::finalize() {
 	}
 
 	image.write(this->_png_filename);
+}
+
+string encoder::encode_header(long long length) {
+	char seq[] = {
+			(length & binary(0000000011111111)) >> 0,
+			(length & binary(1111111100000000)) >> 8,
+			0,
+			0
+	};
+	return string(seq);
 }
 
 void encoder::pack_input(pack &p, void* data) {
