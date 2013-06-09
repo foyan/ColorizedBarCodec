@@ -4,14 +4,16 @@
 class task {
 
 public:
-	virtual void get_input(int argc, char* argv[]) = 0;
+	virtual void init(int argc, char* argv[]) = 0;
 	virtual void* get_sliced_input(int slice_count, int slice_index) = 0;
 	virtual void* get_output() = 0;
-	virtual void process(void* input) = 0;
+	virtual void* process_slice(void* input) = 0;
+	virtual void collect_slice(void* slice, int slice_index, int slice_count) = 0;
+	virtual void finalize() = 0;
 
 	virtual ~task() {
 
-	};
+	}
 
 };
 

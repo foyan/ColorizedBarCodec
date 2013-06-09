@@ -20,7 +20,6 @@ task* task_factory::create_task(int argc, char* argv[]) {
 		return NULL;
 	} else {
 		encoder* enc = new encoder();
-		enc->str("Foooooooooooooooooooo");
 		return enc;
 	}
 

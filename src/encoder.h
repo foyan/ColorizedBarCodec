@@ -11,17 +11,21 @@ using namespace std;
 class encoder : public task {
 
 public:
-	void get_input(int argc, char* argv[]);
+	void init(int argc, char* argv[]);
 	void* get_sliced_input(int slice_index, int slice_count);
 	void* get_output();
-	void process(void* input);
+	void* process_slice(void* input);
+	void collect_slice(void* slice, int slice_index, int slice_count);
+	void finalize();
 
 	string str();
 	void str(string);
 
+
 private:
 	string _str;
-	vector<pair<rgb, rgb>> _colors;
+	string _png_filename;
+	vector<pair<rgb, rgb>> _pixels;
 
 };
 

@@ -6,9 +6,6 @@
 #include "taskfactory.h"
 #include "task.h"
 
-#include <png++/png.hpp>
-#include <boost/filesystem.hpp>
-
 using namespace std;
 
 int main(int argc, char* argv[]) {
@@ -16,11 +13,15 @@ int main(int argc, char* argv[]) {
 	task_factory factory;
 	task* t = factory.create_task(argc, argv);
 
-	t->get_input(argc, argv);
+	t->init(argc, argv);
 
-	void* slice = t->get_sliced_input(1, 0);
+	void* slice_input = t->get_sliced_input(1, 0);
 
-	t->process(slice);
+	void* slice_output = t->process_slice(slice_input);
+
+	t->collect_slice(slice_output, 0, 1);
+
+	t->finalize();
 
 	/*colorizer col;
 	char_encoding enc;
