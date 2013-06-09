@@ -1,3 +1,193 @@
 So the destruction of base pointer(which take an allocation on derived object!) follow
 the destruction rule i.e first the derived then the base. On the other hand for constructor
 there are nothing like virtual constructor. Thanks
+
+	void send_out(vector<T> a, vector<T> b) {
+		for (int i = 1; i < _size; i++) {
+			vector_pair<T> d;
+			d._a = a;
+			d._b = b;
+			_world.send(i, 123, d);
+		}
+	}
+
+	T wait() {
+		T result = 0;
+
+		for (int i = 1; i < _size; i++) {
+			T partial_result;
+			
+	void send_out(vector<T> a, vector<T> b) {
+		for (int i = 1; i < _size; i++) {
+			vector_pair<T> d;
+			d._a = a;
+			d._b = b;
+			_world.send(i, 123, d);
+		}
+	}
+
+	T wait() {
+		T result = 0;
+
+		for (int i = 1; i < _size; i++) {
+			T partial_result;
+			
+	void send_out(vector<T> a, vector<T> b) {
+		for (int i = 1; i < _size; i++) {
+			vector_pair<T> d;
+			d._a = a;
+			d._b = b;
+			_world.send(i, 123, d);
+		}
+	}
+
+	T wait() {
+		T result = 0;
+
+		for (int i = 1; i < _size; i++) {
+			T partial_result;
+So the destruction of base pointer(which take an allocation on derived object!) follow
+the destruction rule i.e first the derived then the base. On the other hand for constructor
+there are nothing like virtual constructor. Thanks
+
+	void send_out(vector<T> a, vector<T> b) {
+		for (int i = 1; i < _size; i++) {
+			vector_pair<T> d;
+			d._a = a;
+			d._b = b;
+			_world.send(i, 123, d);
+		}
+	}
+
+	T wait() {
+		T result = 0;
+
+		for (int i = 1; i < _size; i++) {
+			T partial_result;
+			
+	void send_out(vector<T> a, vector<T> b) {
+		for (int i = 1; i < _size; i++) {
+			vector_pair<T> d;
+			d._a = a;
+			d._b = b;
+			_world.send(i, 123, d);
+		}
+	}
+
+	T wait() {
+		T result = 0;
+
+		for (int i = 1; i < _size; i++) {
+			T partial_result;
+			
+	void send_out(vector<T> a, vector<T> b) {
+		for (int i = 1; i < _size; i++) {
+			vector_pair<T> d;
+			d._a = a;
+			d._b = b;
+			_world.send(i, 123, d);
+		}
+	}
+
+	T wait() {
+		T result = 0;
+
+		for (int i = 1; i < _size; i++) {
+			T partial_result;
+	So the destruction of base pointer(which take an allocation on derived object!) follow
+the destruction rule i.e first the derived then the base. On the other hand for constructor
+there are nothing like virtual constructor. Thanks
+
+	void send_out(vector<T> a, vector<T> b) {
+		for (int i = 1; i < _size; i++) {
+			vector_pair<T> d;
+			d._a = a;
+			d._b = b;
+			_world.send(i, 123, d);
+		}
+	}
+
+	T wait() {
+		T result = 0;
+
+		for (int i = 1; i < _size; i++) {
+			T partial_result;
+			
+	void send_out(vector<T> a, vector<T> b) {
+		for (int i = 1; i < _size; i++) {
+			vector_pair<T> d;
+			d._a = a;
+			d._b = b;
+			_world.send(i, 123, d);
+		}
+	}
+
+	T wait() {
+		T result = 0;
+
+		for (int i = 1; i < _size; i++) {
+			T partial_result;
+			
+	void send_out(vector<T> a, vector<T> b) {
+		for (int i = 1; i < _size; i++) {
+			vector_pair<T> d;
+			d._a = a;
+			d._b = b;
+			_world.send(i, 123, d);
+		}
+	}
+
+	T wait() {
+		T result = 0;
+
+		for (int i = 1; i < _size; i++) {
+			T partial_result;
+			
+So the destruction of base pointer(which take an allocation on derived object!) follow
+the destruction rule i.e first the derived then the base. On the other hand for constructor
+there are nothing like virtual constructor. Thanks
+
+	void send_out(vector<T> a, vector<T> b) {
+		for (int i = 1; i < _size; i++) {
+			vector_pair<T> d;
+			d._a = a;
+			d._b = b;
+			_world.send(i, 123, d);
+		}
+	}
+
+	T wait() {
+		T result = 0;
+
+		for (int i = 1; i < _size; i++) {
+			T partial_result;
+			
+	void send_out(vector<T> a, vector<T> b) {
+		for (int i = 1; i < _size; i++) {
+			vector_pair<T> d;
+			d._a = a;
+			d._b = b;
+			_world.send(i, 123, d);
+		}
+	}
+
+	T wait() {
+		T result = 0;
+
+		for (int i = 1; i < _size; i++) {
+			T partial_result;
+			
+	void send_out(vector<T> a, vector<T> b) {
+		for (int i = 1; i < _size; i++) {
+			vector_pair<T> d;
+			d._a = a;
+			d._b = b;
+			_world.send(i, 123, d);
+		}
+	}
+
+	T wait() {
+		T result = 0;
+
+		for (int i = 1; i < _size; i++) {
+			T partial_result;

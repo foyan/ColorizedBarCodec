@@ -15,6 +15,7 @@ void mpi_task_runner::run(task* t, int argc, char* argv[]) {
 		t->init(argc, argv);
 
 		for (int rank = 1; rank < world.size(); rank++) {
+
 			void* slice_input = t->get_sliced_input(rank, world.size());
 
 			pack ipack;
@@ -23,12 +24,14 @@ void mpi_task_runner::run(task* t, int argc, char* argv[]) {
 			world.send(rank, 123, ipack);
 
 			pack opack;
-
 			world.recv(rank, 123, opack);
 
 			void* slice_output = t->unpack_output(opack);
 			t->collect_slice(slice_output, 0, 1);
 		}
+
+		t->finalize();
+
 
 	} else {
 
@@ -44,5 +47,4 @@ void mpi_task_runner::run(task* t, int argc, char* argv[]) {
 
 	}
 
-	t->finalize();
 }
