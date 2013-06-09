@@ -3,6 +3,7 @@
 #include "taskfactory.h"
 #include "task.h"
 #include "encoder.h"
+#include "decoder.h"
 
 using namespace std;
 
@@ -17,7 +18,8 @@ task* task_factory::create_task(int argc, char* argv[]) {
 	transform(extension.begin(), extension.end(), extension.begin(), ::tolower);
 
 	if (extension == ".png") {
-		return NULL;
+		decoder* dec = new decoder();
+		return dec;
 	} else {
 		encoder* enc = new encoder();
 		return enc;
