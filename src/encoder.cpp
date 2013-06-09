@@ -66,6 +66,11 @@ void encoder::collect_slice(void* slice, int slice_index, int slice_count) {
 	vector<pair<rgb, rgb>> slice_vec = *((vector<pair<rgb, rgb>>*) slice);
 
 	for (unsigned int i = 0; i < slice_vec.size(); i++) {
+
+		while (this->_pixels.size() - 1 < i || this->_pixels.size() == 0) {
+			this->_pixels.push_back(pair<rgb, rgb>());
+		}
+
 		this->_pixels[(i*slice_count) + slice_index] = slice_vec[i];
 	}
 
