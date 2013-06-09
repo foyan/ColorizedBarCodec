@@ -16,7 +16,13 @@ int main(int argc, char* argv[]) {
 	task_factory factory;
 	task* t = factory.create_task(argc, argv);
 
-	colorizer col;
+	t->get_input(argc, argv);
+
+	void* slice = t->get_sliced_input(1, 0);
+
+	t->process(slice);
+
+	/*colorizer col;
 	char_encoding enc;
 
 	png::image<png::rgb_pixel> image(102, 100);
@@ -36,11 +42,11 @@ int main(int argc, char* argv[]) {
 		image.set_pixel(x+2, y+1, png::rgb_pixel(colors.second.r(), colors.second.g(), colors.second.b()));
 		image.set_pixel(x+2, y+0, png::rgb_pixel(colors.second.r(), colors.second.g(), colors.second.b()));
 
-	}
+	}*/
 
 	delete t;
 
-	image.write("out.png");
+	//image.write("out.png");
 
 
 	return 0;
