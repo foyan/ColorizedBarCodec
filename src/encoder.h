@@ -13,7 +13,6 @@ class encoder : public task {
 public:
 	void init(int argc, char* argv[]);
 	void* get_sliced_input(int slice_index, int slice_count);
-	void* get_output();
 	void* process_slice(void* input);
 	void collect_slice(void* slice, int slice_index, int slice_count);
 	void finalize();

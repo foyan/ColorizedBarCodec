@@ -41,10 +41,6 @@ void* encoder::get_sliced_input(int slice_index, int slice_count) {
 	return s;
 }
 
-void* encoder::get_output() {
-	return NULL;
-}
-
 void* encoder::process_slice(void* input) {
 	colorizer col;
 	char_encoding enc;
