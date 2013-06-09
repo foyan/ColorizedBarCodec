@@ -93,3 +93,20 @@ void encoder::finalize() {
 
 	image.write(this->_png_filename);
 }
+
+void encoder::pack_input(pack &p, void* data) {
+	p.Str = *((string*)data);
+}
+
+void encoder::pack_output(pack &p, void* data) {
+	p.Pixels = *((vector<pair<rgb, rgb> >*)data);
+}
+
+void* encoder::unpack_input(pack &p) {
+	return new string(p.Str);
+}
+
+void* encoder::unpack_output(pack &p) {
+	return new vector<pair<rgb, rgb> >(p.Pixels);
+}
+

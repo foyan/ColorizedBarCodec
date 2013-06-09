@@ -2,6 +2,7 @@
 #define RGB_H_
 
 #include <iostream>
+#include <boost/serialization/access.hpp>
 
 class rgb {
 
@@ -25,6 +26,16 @@ private:
 	short _r;
 	short _g;
 	short _b;
+
+    friend class boost::serialization::access;
+
+    template<class Archive>
+    void serialize(Archive& ar, const unsigned int version) {
+        ar & _r;
+        ar & _g;
+        ar & _b;
+    }
+
 };
 
 namespace std {

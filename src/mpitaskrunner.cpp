@@ -1,6 +1,8 @@
 #include "mpitaskrunner.h"
 #include "task.h"
+#include "pack.h"
 #include <boost/mpi.hpp>
+#include <boost/serialization/utility.hpp>
 
 namespace mpi = boost::mpi;
 
@@ -14,19 +16,31 @@ void mpi_task_runner::run(task* t, int argc, char* argv[]) {
 
 		for (int rank = 1; rank < world.size(); rank++) {
 			void* slice_input = t->get_sliced_input(rank, world.size());
-			world.send(rank, 123, slice_input);
 
-			void* slice_output;
-			world.recv(rank, 123, slice_output);
+			pack ipack;
+			t->pack_input(ipack, slice_input);
+
+			world.send(rank, 123, ipack);
+
+			pack opack;
+
+			world.recv(rank, 123, opack);
+
+			void* slice_output = t->unpack_output(opack);
 			t->collect_slice(slice_output, 0, 1);
 		}
 
 	} else {
 
-		void* slice_input;
-		world.recv(0, 123, slice_input);
+		pack ipack;
+		world.recv(0, 123, ipack);
+		void* slice_input = t->unpack_input(ipack);
+
 		void* slice_output = t->process_slice(slice_input);
-		world.send(0, 123, slice_output);
+
+		pack opack;
+		t->pack_output(opack, slice_output);
+		world.send(0, 123, opack);
 
 	}
 

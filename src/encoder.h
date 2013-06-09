@@ -17,6 +17,11 @@ public:
 	void collect_slice(void* slice, int slice_index, int slice_count);
 	void finalize();
 
+	void pack_input(pack&, void*);
+	void pack_output(pack&, void*);
+	void* unpack_input(pack&);
+	void* unpack_output(pack&);
+
 	string str();
 	void str(string);
 
