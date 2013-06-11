@@ -15,8 +15,8 @@ void decoder::init(int argc, char* argv[]) {
 
 	png::image<png::rgb_pixel> img(file);
 
-	for (int x = 0; x < 102; x += 3) {
-		for (int y = 0; y < 100; y += 2) {
+	for (int y = 0; y < 100; y += 2) {
+		for (int x = 0; x < 102; x += 3) {
 			png::rgb_pixel x0y0 = img.get_pixel(x+0, y+0);
 			png::rgb_pixel x0y1 = img.get_pixel(x+0, y+1);
 			png::rgb_pixel x1y0 = img.get_pixel(x+1, y+0);
@@ -79,8 +79,6 @@ void* decoder::process_slice(void* input) {
 void decoder::collect_slice(void* slice, int slice_index, int slice_count) {
 
 	string slice_string = *((string*) slice);
-
-	std::cout << "From node " << slice_index << ": [" << slice_string << "]" << std::endl;
 
 	for (unsigned int i = 0; i < slice_string.length(); i++) {
 

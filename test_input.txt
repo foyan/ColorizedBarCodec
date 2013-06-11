@@ -1,1 +1,11 @@
-Soz
+bool decoder::is_equal(const png::rgb_pixel& a, const png::rgb_pixel& b) {
+	return a.blue == b.blue && a.green == b.green && a.red == b.red;
+}
+
+void* decoder::get_sliced_input(int slice_index, int slice_count) {
+	vector<pair<rgb, rgb> >* px = new vector<pair<rgb, rgb> >();
+	for (unsigned int i = slice_index; i < this->_pixels.size(); i += slice_count) {
+		px->push_back(this->_pixels[i]);
+	}
+	return px;
+}
