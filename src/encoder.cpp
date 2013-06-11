@@ -26,7 +26,7 @@ void encoder::init(int argc, char* argv[]) {
 
 	string s = buffer.str();
 
-	this->_str = /*this->encode_header(s.length()) +*/ buffer.str();
+	this->_str = this->encode_header(s.length()) + buffer.str();
 
 	boost::filesystem::path p;
 	p /= file;
