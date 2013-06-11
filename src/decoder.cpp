@@ -80,11 +80,13 @@ void decoder::collect_slice(void* slice, int slice_index, int slice_count) {
 
 	string slice_string = *((string*) slice);
 
+	std::cout << "From node " << slice_index << ": [" << slice_string << "]" << std::endl;
+
 	for (unsigned int i = 0; i < slice_string.length(); i++) {
 
 		unsigned int idx = (i*slice_count) + slice_index;
 		while (this->_str.length() - 1 < idx || this->_str.length() == 0) {
-			this->_str += (char)0;
+			this->_str += "_";
 		}
 
 		this->_str[idx] = slice_string[i];
