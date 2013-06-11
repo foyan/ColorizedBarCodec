@@ -42,7 +42,7 @@ rgb decoder::get_color(png::rgb_pixel m, png::rgb_pixel s1, png::rgb_pixel s2) {
 	if (this->is_equal(m, s1) || this->is_equal(m, s2)) {
 		return rgb(m.red, m.green, m.blue);
 	}
-	if (s1 == s2) {
+	if (this->is_equal(s1, s2)) {
 		return rgb(s1.red, s1.green, s1.blue);
 	}
 	return rgb(s2.red, s2.green, s2.blue);
