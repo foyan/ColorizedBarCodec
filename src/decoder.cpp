@@ -49,7 +49,7 @@ rgb decoder::get_color(png::rgb_pixel m, png::rgb_pixel s1, png::rgb_pixel s2) {
 }
 
 bool decoder::is_equal(const png::rgb_pixel& a, const png::rgb_pixel& b) {
-	return false;
+	return a.blue == b.blue && a.green == b.green && a.red == b.red;
 }
 
 void* decoder::get_sliced_input(int slice_index, int slice_count) {
@@ -93,7 +93,7 @@ void decoder::collect_slice(void* slice, int slice_index, int slice_count) {
 }
 
 void decoder::finalize() {
-	std::cout << this->_str << std::endl;
+	std::cout << "[" << this->_str << "]" << std::endl;
 }
 
 void decoder::pack_input(pack &p, void* data) {

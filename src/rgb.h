@@ -40,9 +40,21 @@ private:
 
 namespace std {
 
-	template<> struct less<rgb> {
-		bool operator() (const rgb& a, const rgb& b) {
-			return a.r() < b.r() || a.g() < b.g() || a.b() < b.b();
+	template<> struct less<rgb> : binary_function<rgb, rgb, bool> {
+		bool operator() (const rgb& a, const rgb& b) const {
+			if (a.r() < b.r()) {
+				return true;
+			}
+			if (a.r() > b.r()) {
+				return false;
+			}
+			if (a.g() < b.g()) {
+				return true;
+			}
+			if (a.g() > b.g()) {
+				return false;
+			}
+			return a.b() < b.b();
 		}
 	};
 

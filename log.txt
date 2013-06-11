@@ -1,0 +1,5104 @@
+Low: 8
+Hi : 2
+Res: 40
+Low: 3
+Hi : 7
+Res: 115
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 2
+Hi : 7
+Res: 114
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 8
+Hi : 6
+Res: 104
+Low: 2
+Hi : 7
+Res: 114
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 5
+Hi : 6
+Res: 101
+Low: 2
+Hi : 7
+Res: 114
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 15
+Hi : 6
+Res: 111
+Low: 5
+Hi : 6
+Res: 101
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 0
+Hi : 2
+Res: 32
+Low: 5
+Hi : 7
+Res: 117
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Low: 11
+Res: 187
+Low: 12
+Hi : 11
+Res: 187
+Hi : 6
+Low: 11
+Res: 108
+Hi : 11
+Low: 11
+Res: 187
+Hi : 11
+Low: 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 4
+Hi : 7
+Res: 116
+Low: 11
+Low: 2
+Hi : 11
+Hi : 6
+Res: 187
+Res: 98
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 2
+Hi : 6
+Res: 98
+Low: 12
+Hi : 6
+Res: 108
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 5
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 3
+Hi : 6
+Res: 99
+Low: 3
+Hi : 6
+Res: 99
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 0
+Hi : 2
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 0
+Hi : 2
+Res: 32
+Low: 15
+Hi : 6
+Res: 111
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 6
+Res: 101
+Low: 3
+Hi : 7
+Res: 115
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 14
+Hi : 11
+Res: 187
+Low: 5
+Hi : 6
+Res: 101
+Low: 3
+Hi : 6
+Hi : 2
+Res: 46
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 99
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 1
+Hi : 6
+Res: 97
+Low: 10
+Hi : 0
+Res: 10
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 4
+Hi : 6
+Res: 100
+Low: 14
+Hi : 2
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 46
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 0
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 2
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 4
+Hi : 7
+Res: 116
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 14
+Hi : 6
+Res: 110
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 5
+Hi : 6
+Res: 101
+Low: 8
+Hi : 6
+Res: 104
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 3
+Hi : 7
+Res: 115
+Low: 15
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 4
+Res: 79
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 9
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 6
+Res: 105
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 9
+Hi : 2
+Res: 41
+Low: 4
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 7
+Res: 116
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 1
+Hi : 6
+Res: 97
+Low: 2
+Hi : 7
+Res: 114
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 3
+Hi : 7
+Res: 115
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 0
+Hi : 2
+Res: 32
+Low: 0
+Hi : 2
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 0
+Hi : 2
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 2
+Hi : 7
+Res: 114
+Low: 0
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 3
+Hi : 2
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 0
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 12
+Hi : 6
+Res: 108
+Low: 2
+Hi : 7
+Res: 114
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 6
+Hi : 6
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 2
+Res: 32
+Low: 11
+Res: 102
+Low: 5
+Hi : 7
+Res: 117
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 8
+Hi : 6
+Res: 104
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 5
+Res: 83
+Low: 8
+Hi : 6
+Res: 104
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 3
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 6
+Res: 99
+Low: 8
+Hi : 6
+Res: 104
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 7
+Hi : 7
+Res: 119
+Low: 4
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 7
+Res: 116
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 15
+Hi : 6
+Res: 111
+Hi : 11
+Res: 187
+Low: 4
+Hi : 6
+Res: 100
+Low: 4
+Hi : 7
+Res: 116
+Low: 11
+Low: 0
+Hi : 2
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 5
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 12
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 6
+Res: 108
+Low: 4
+Hi : 7
+Res: 116
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 7
+Res: 117
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 0
+Hi : 2
+Res: 32
+Low: 0
+Hi : 2
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 0
+Hi : 2
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 9
+Hi : 6
+Res: 105
+Low: 0
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 9
+Hi : 6
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 1
+Hi : 6
+Res: 97
+Low: 15
+Hi : 6
+Res: 111
+Low: 11
+Hi : 11
+Res: 187
+Hi : 2
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 105
+Low: 5
+Hi : 7
+Res: 117
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 15
+Hi : 6
+Res: 111
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 15
+Hi : 6
+Res: 111
+Low: 2
+Hi : 7
+Res: 114
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 1
+Hi : 6
+Res: 97
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 5
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 6
+Res: 101
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 5
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 6
+Res: 101
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 8
+Hi : 6
+Res: 104
+Low: 1
+Hi : 6
+Res: 97
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 14
+Hi : 6
+Res: 110
+Low: 4
+Hi : 7
+Res: 116
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 8
+Hi : 6
+Res: 104
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 4
+Hi : 7
+Res: 116
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 9
+Hi : 6
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 105
+Low: 8
+Hi : 6
+Res: 104
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 10
+Hi : 6
+Res: 106
+Low: 0
+Hi : 2
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 10
+Hi : 0
+Res: 10
+Low: 0
+Hi : 2
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 9
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 15
+Hi : 6
+Res: 111
+Low: 5
+Hi : 6
+Res: 101
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 6
+Res: 105
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 0
+Hi : 2
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 9
+Hi : 6
+Res: 105
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 32
+Low: 5
+Hi : 6
+Res: 101
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 8
+Hi : 6
+Res: 104
+Low: 8
+Hi : 6
+Res: 104
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 4
+Hi : 7
+Res: 116
+Low: 2
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 7
+Res: 114
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 14
+Hi : 6
+Res: 110
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 14
+Hi : 6
+Res: 110
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 3
+Hi : 6
+Res: 99
+Low: 15
+Hi : 6
+Res: 111
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 0
+Hi : 2
+Res: 32
+Low: 0
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 5
+Hi : 6
+Res: 101
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 2
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 5
+Hi : 6
+Res: 101
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 5
+Hi : 6
+Res: 101
+Low: 0
+Hi : 2
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 0
+Hi : 2
+Res: 32
+Low: 14
+Hi : 6
+Res: 110
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 6
+Res: 107
+Low: 4
+Hi : 7
+Res: 116
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 15
+Hi : 6
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 111
+Low: 0
+Hi : 2
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 1
+Hi : 2
+Res: 33
+Low: 3
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 7
+Res: 115
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 1
+Hi : 6
+Res: 97
+Low: 1
+Hi : 6
+Res: 97
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 6
+Hi : 6
+Res: 102
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 4
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 0
+Hi : 2
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 7
+Res: 116
+Low: 14
+Hi : 6
+Res: 110
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 5
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 0
+Hi : 2
+Res: 32
+Low: 5
+Hi : 6
+Res: 101
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 6
+Res: 101
+Low: 3
+Hi : 7
+Res: 115
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 0
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 2
+Res: 32
+Low: 9
+Hi : 6
+Res: 105
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 0
+Hi : 2
+Res: 32
+Low: 2
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 5
+Hi : 6
+Res: 101
+Low: 4
+Hi : 6
+Res: 100
+Low: 11
+Hi : 11
+Hi : 7
+Res: 114
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 2
+Hi : 7
+Res: 114
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 8
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 5
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 6
+Res: 104
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 7
+Res: 117
+Low: 4
+Hi : 7
+Res: 116
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 4
+Hi : 7
+Res: 116
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 14
+Hi : 6
+Res: 110
+Low: 5
+Hi : 6
+Res: 101
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 5
+Hi : 6
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 0
+Hi : 11
+Res: 187
+Low: 11
+Res: 101
+Low: 5
+Hi : 6
+Res: 101
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 15
+Hi : 6
+Res: 111
+Low: 3
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 7
+Res: 112
+Low: 6
+Hi : 6
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 6
+Res: 99
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 4
+Hi : 7
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 102
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Res: 116
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 14
+Hi : 6
+Res: 110
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 1
+Hi : 6
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 5
+Hi : 7
+Res: 117
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 4
+Hi : 7
+Res: 116
+Low: 5
+Hi : 6
+Res: 101
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 97
+Low: 1
+Hi : 6
+Res: 97
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 9
+Hi : 6
+Res: 105
+Low: 6
+Hi : 7
+Res: 118
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 9
+Hi : 6
+Res: 105
+Res: 187
+Low: 12
+Hi : 6
+Res: 108
+Low: 15
+Hi : 6
+Res: 111
+Low: 11
+Hi : 11
+Low: 2
+Hi : 7
+Res: 114
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 4
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 7
+Res: 116
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 4
+Hi : 7
+Res: 116
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 15
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 4
+Hi : 7
+Res: 116
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 6
+Res: 111
+Low: 15
+Hi : 6
+Res: 111
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 12
+Hi : 6
+Res: 108
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 5
+Hi : 6
+Res: 101
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 4
+Hi : 7
+Res: 116
+Low: 3
+Hi : 6
+Res: 99
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 7
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 7
+Res: 119
+Low: 14
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 2
+Res: 46
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 5
+Hi : 6
+Res: 101
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 15
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 0
+Hi : 6
+Res: 111
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 2
+Res: 32
+Low: 8
+Hi : 6
+Res: 104
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 3
+Hi : 6
+Res: 99
+Low: 14
+Hi : 6
+Res: 110
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 2
+Hi : 7
+Res: 114
+Low: 14
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 4
+Hi : 7
+Res: 116
+Low: 4
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 6
+Res: 110
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 5
+Res: 84
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 4
+Hi : 6
+Res: 100
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 6
+Hi : 6
+Res: 102
+Low: 2
+Hi : 7
+Res: 114
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 4
+Hi : 7
+Res: 116
+Low: 4
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 7
+Res: 116
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 5
+Hi : 6
+Res: 101
+Low: 1
+Hi : 6
+Res: 97
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 2
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 7
+Res: 114
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 2
+Hi : 6
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 98
+Low: 8
+Low: 11
+Hi : 11
+Res: 187
+Low: 15
+Hi : 6
+Res: 111
+Low: 9
+Hi : 6
+Res: 104
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 6
+Res: 105
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 4
+Hi : 6
+Res: 100
+Low: 11
+Hi : 6
+Res: 107
+Low: 11
+Hi : 11
+Res: 187
+Low: 6
+Hi : 7
+Res: 118
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 3
+Hi : 7
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 115
+Low: 14
+Hi : 6
+Res: 110
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 0
+Hi : 2
+Res: 32
+Low: 7
+Hi : 6
+Res: 103
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 4
+Hi : 6
+Res: 100
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 3
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 7
+Res: 115
+Low: 10
+Hi : 0
+Res: 10
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 14
+Hi : 6
+Res: 110
+Low: 12
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 6
+Res: 108
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 0
+Hi : 2
+Res: 32
+Low: 0
+Hi : 2
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 4
+Hi : 7
+Res: 116
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 2
+Hi : 7
+Res: 114
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 4
+Hi : 6
+Res: 100
+Low: 11
+Hi : 6
+Res: 107
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 15
+Hi : 6
+Res: 111
+Low: 15
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 6
+Res: 111
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 5
+Hi : 6
+Res: 101
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 3
+Hi : 6
+Res: 99
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 2
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 7
+Res: 114
+Low: 0
+Hi : 2
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 14
+Hi : 6
+Res: 110
+Low: 0
+Hi : 2
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 0
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 2
+Res: 32
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 9
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 6
+Res: 105
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 6
+Hi : 7
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 118
+Low: 9
+Hi : 6
+Res: 105
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 5
+Hi : 6
+Res: 101
+Low: 15
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 6
+Res: 111
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 14
+Hi : 6
+Res: 110
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+Low: 11
+Hi : 11
+Res: 187
+[S(e hsr»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»owdrett»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»» h u ru»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»tiolbua»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»hcbeacl»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»ehj st »»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»  eieoc»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»dtc..ro»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»eate 
+n»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»sk! Ots»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»te)fnht»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»r  i er»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»uafrtru»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»cnoshec»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»t lte t»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»ial  ao»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»olotorr»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»nlwhte.»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»» o
+eh  »»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»oct enT»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»fahdroh»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»» tee ta»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»bi rhhn»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»aodiaik»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»snevnns»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»e sedg
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»» otd  »»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»pnr fl»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»o utoi»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»idchrk»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»nete e»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»trinc »»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»eio ov»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»rvntni»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»]

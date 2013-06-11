@@ -33,8 +33,15 @@ pair<rgb, rgb> colorizer::get_colors(unsigned short byte) {
 }
 
 unsigned short colorizer::get_byte(const rgb& low, const rgb& high) {
-	return 0;
-	/*unsigned short l = this->_nibbles->right.at(low);
+	unsigned short l = this->_nibbles->right.at(low);
 	unsigned short h = this->_nibbles->right.at(high);
-	return (h << 4) | l;*/
+
+	std::cout << "Low: " << l << std::endl;
+	std::cout << "Hi : " << h << std::endl;
+
+	unsigned short res = (h << 4) | l;
+
+	std::cout << "Res: " << res << std::endl;
+
+	return res;
 }
