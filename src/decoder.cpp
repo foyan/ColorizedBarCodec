@@ -6,28 +6,28 @@
 #include "decoder.h"
 #include "colorizer.h"
 #include "charencoding.h"
-#include "rgb.h";
+#include "rgb.h"
 
 using namespace std;
 
 void decoder::init(int argc, char* argv[]) {
 	string file = argv[1];
 
-	png::image image(file);
+	png::image<png::rgb_pixel> img(file);
 
 	for (int x = 0; x < 102; x += 3) {
 		for (int y = 0; y < 100; y += 2) {
-			png::rgb_pixel x0y0 = image.get_pixel(x+0, y+0);
-			png::rgb_pixel x0y1 = image.get_pixel(x+0, y+1);
-			png::rgb_pixel x1y0 = image.get_pixel(x+1, y+0);
-			png::rgb_pixel x1y1 = image.get_pixel(x+1, y+1);
-			png::rgb_pixel x2y0 = image.get_pixel(x+2, y+0);
-			png::rgb_pixel x2y1 = image.get_pixel(x+2, y+1);
+			png::rgb_pixel x0y0 = img.get_pixel(x+0, y+0);
+			png::rgb_pixel x0y1 = img.get_pixel(x+0, y+1);
+			png::rgb_pixel x1y0 = img.get_pixel(x+1, y+0);
+			png::rgb_pixel x1y1 = img.get_pixel(x+1, y+1);
+			png::rgb_pixel x2y0 = img.get_pixel(x+2, y+0);
+			png::rgb_pixel x2y1 = img.get_pixel(x+2, y+1);
 
 			rgb p1 = this->get_color(x0y0, x0y1, x1y0);
 			rgb p2 = this->get_color(x2y0, x2y1, x1y1);
 
-			this->_pixels.push_back(pair(p1, p2));
+			this->_pixels.push_back(pair<rgb, rgb>(p1, p2));
 		}
 	}
 
@@ -39,7 +39,7 @@ void decoder::init(int argc, char* argv[]) {
 }
 
 rgb decoder::get_color(png::rgb_pixel m, png::rgb_pixel s1, png::rgb_pixel s2) {
-	if (m == s1 || m == s2) {
+	if (this->is_equal(m, s1) || this->is_equal(m, s2)) {
 		return rgb(m.red, m.green, m.blue);
 	}
 	if (s1 == s2) {
@@ -48,81 +48,67 @@ rgb decoder::get_color(png::rgb_pixel m, png::rgb_pixel s1, png::rgb_pixel s2) {
 	return rgb(s2.red, s2.green, s2.blue);
 }
 
+bool decoder::is_equal(const png::rgb_pixel& a, const png::rgb_pixel& b) {
+	return false;
+}
+
 void* decoder::get_sliced_input(int slice_index, int slice_count) {
-	string* s = new string("");
-	for (unsigned int i = slice_index; i < this->_str.length(); i += slice_count) {
-		(*s) += this->_str[i];
+	vector<pair<rgb, rgb> >* px = new vector<pair<rgb, rgb> >();
+	for (unsigned int i = slice_index; i < this->_pixels.size(); i += slice_count) {
+		px->push_back(this->_pixels[i]);
 	}
-	return s;
+	return px;
 }
 
 void* decoder::process_slice(void* input) {
 	colorizer col;
 	char_encoding enc;
 
-	string str = *((string*) input);
-	vector<pair<rgb, rgb>>* result = new vector<pair<rgb, rgb>>();
+	vector<pair<rgb, rgb> >* px = (vector<pair<rgb, rgb> >*) input;
 
-	for (unsigned int i = 0; i < str.length(); i++) {
-		char ch = str[i];
-		unsigned long byte = enc.get_byte(ch);
-		pair<rgb, rgb> colors = col.get_colors(byte);
-		result->push_back(colors);
+	string* result = new string("");
+
+	for (unsigned int i = 0; i < px->size(); i++) {
+		unsigned short byte = col.get_byte(px->at(i).first, px->at(i).second);
+		(*result) += enc.get_char(byte);
 	}
 
 	return result;
 }
 
 void decoder::collect_slice(void* slice, int slice_index, int slice_count) {
-	vector<pair<rgb, rgb>> slice_vec = *((vector<pair<rgb, rgb>>*) slice);
 
-	for (unsigned int i = 0; i < slice_vec.size(); i++) {
+	string slice_string = *((string*) slice);
+
+	for (unsigned int i = 0; i < slice_string.length(); i++) {
 
 		unsigned int idx = (i*slice_count) + slice_index;
-		while (this->_pixels.size() - 1 < idx || this->_pixels.size() == 0) {
-			this->_pixels.push_back(pair<rgb, rgb>());
+		while (this->_str.length() - 1 < idx || this->_str.length() == 0) {
+			this->_str += (char)0;
 		}
 
-		this->_pixels[idx] = slice_vec[i];
+		this->_str[idx] = slice_string[i];
 	}
 
 }
 
 void decoder::finalize() {
-	png::image<png::rgb_pixel> image(102, 100);
-
-	for (unsigned int i = 0; i < this->_pixels.size(); i++) {
-
-		pair<rgb, rgb> pixel = this->_pixels[i];
-
-		int x = (i*3) % 102;
-		int y = (i*3) / 102 * 2;
-
-		image.set_pixel(x+0, y+0, png::rgb_pixel(pixel.first.r(), pixel.first.g(), pixel.first.b()));
-		image.set_pixel(x+1, y+0, png::rgb_pixel(pixel.first.r(), pixel.first.g(), pixel.first.b()));
-		image.set_pixel(x+0, y+1, png::rgb_pixel(pixel.first.r(), pixel.first.g(), pixel.first.b()));
-		image.set_pixel(x+1, y+1, png::rgb_pixel(pixel.second.r(), pixel.second.g(), pixel.second.b()));
-		image.set_pixel(x+2, y+1, png::rgb_pixel(pixel.second.r(), pixel.second.g(), pixel.second.b()));
-		image.set_pixel(x+2, y+0, png::rgb_pixel(pixel.second.r(), pixel.second.g(), pixel.second.b()));
-
-	}
-
-	image.write(this->_png_filename);
+	std::cout << this->_str << std::endl;
 }
 
 void decoder::pack_input(pack &p, void* data) {
-	p.Str = *((string*)data);
-}
-
-void decoder::pack_output(pack &p, void* data) {
 	p.Pixels = *((vector<pair<rgb, rgb> >*)data);
 }
 
+void decoder::pack_output(pack &p, void* data) {
+	p.Str = *((string*)data);
+}
+
 void* decoder::unpack_input(pack &p) {
-	return new string(p.Str);
+	return new vector<pair<rgb, rgb> >(p.Pixels);
 }
 
 void* decoder::unpack_output(pack &p) {
-	return new vector<pair<rgb, rgb> >(p.Pixels);
+	return new string(p.Str);
 }
 

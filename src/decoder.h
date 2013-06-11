@@ -30,7 +30,8 @@ private:
 	string _txt_filename;
 	vector<pair<rgb, rgb>> _pixels;
 
-	rgb get_pixel(png::rgb_pixel m, png::rgb_pixel s1, png::rgb_pixel s2);
+	rgb get_color(png::rgb_pixel m, png::rgb_pixel s1, png::rgb_pixel s2);
+	bool is_equal(const png::rgb_pixel& a, const png::rgb_pixel& b);
 
 };
 
