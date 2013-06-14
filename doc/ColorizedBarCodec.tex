@@ -267,14 +267,15 @@ algo decode:
 
 \section{Error Correction}
 
-Die in \cite{paper} vorgeschlagene probabilistische Error Detection und Correction-Methode funktioniert folgendermassen (seien {\tt m}, {\tt s1}, {\tt s2} die Farben an den entsprechenden Position innerhalb des {\tt L}s:
+Die in \cite{paper} vorgeschlagene probabilistische Error Detection und Correction-Methode funktioniert folgendermassen (seien {\tt m}, {\tt s1}, {\tt s2} die Farben an den entsprechenden Position innerhalb des {\tt L}s):
 
 \begin{verbatim}
-algo color(:
-    for (y, x) in [0..height-1] x [0..width-1] step (2, 3):
-        var c1 = color(bc[x, y], bc[x+1, y], bc[x, y+1])
-        var c2 = color(bc[x+1, y+1], bc[x+2, y+1], bc[x+2, y])
-        text.append(nibble(c2) nibble(c1))
+algo color:
+    if m = s1:
+        return m
+    if s1 = s2:
+        return s1
+    return s2
 \end{verbatim}
 
 
