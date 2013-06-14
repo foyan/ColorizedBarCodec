@@ -214,7 +214,7 @@ Wert & Nibble (binär) & RGB-Wert \\
 
 \chapter{Randbedingungen}
 
-Das beschriebene, untersuchte und implementierte Verfahren \cite{paper} impliziert in sich schon mehrere Randbedingungen beziehungsweise Einschränkungen bezüglich allgemeiner Brauchbarkeit, deren Diskussion in Kapitel \ref{sec:analyse} aufgenommen wird.
+Das beschriebene, untersuchte und implementierte Verfahren \cite{paper} impliziert in sich schon mehrere Randbedingungen beziehungsweise Einschränkungen bezüglich allgemeiner Brauchbarkeit, deren Diskussion in Kapitel \ref{sec:bewertung} aufgenommen wird.
 
 Vorauseilend kann schon einmal gesagt werden, dass in Punkto Kapazitätserweiterung kein Fortschritt erreicht wird, weil der {\it QR}-Code intrinsisch schon eine höhere Kapazität aufweist, ohne allerdings den Vorteil der Farbdimension für sich reklamieren zu können.
 
@@ -245,14 +245,14 @@ Die Länge dieses Textes beträgt (nach Ersetzung von {\tt ß} durch {\tt ss} so
 \end{figure}
 \begin{figure}
 \caption{Die Antwort auf die Frage: Was ist Aufklärung? als Barcode}
-\label{fig:onebyte}
+\label{test:kant}
 \begin{center}
 \includegraphics[scale=1.4]{../kant.png}
 \end{center}
 \end{figure}
 \begin{figure}
 \caption{Möglichst viel Kant in einem Barcode}
-\label{fig:onebyte}
+\label{test:kantkant}
 \begin{center}
 \includegraphics[scale=1.4]{../kantkant.png}
 \end{center}
@@ -278,13 +278,13 @@ algo encode:
 
 \section{Decodieren des Barcodes}
 
-Der folgende Algorithmus beschreibt den Decodierungsvorgang eines Barcodes (seien {\tt bc} der zu dcodierende Barcode, {\tt width} und {\tt height} die Breite und Höhe des Barcodes, {\tt nibble()} die Farbe-Nibble-Abbildung, {\tt color()} der weiter unten beschriebene Error-Correction-Algorithmus und {\tt text} der resultierende Text):
+Der folgende Algorithmus beschreibt den Decodierungsvorgang eines Barcodes (seien {\tt bc} der zu dcodierende Barcode, {\tt width} und {\tt height} die Breite und Höhe des Barcodes, {\tt nibble()} die Farbe-Nibble-Abbildung, {\tt detect\_color()} der weiter unten beschriebene Error-Correction-Algorithmus und {\tt text} der resultierende Text):
 
 \begin{verbatim}
 algo decode:
     for (y, x) in [0..height-1] x [0..width-1] step (2, 3):
-        var c1 = color(bc[x, y], bc[x+1, y], bc[x, y+1])
-        var c2 = color(bc[x+1, y+1], bc[x+2, y+1], bc[x+2, y])
+        var c1 = detect_color(bc[x, y], bc[x+1, y], bc[x, y+1])
+        var c2 = detect_color(bc[x+1, y+1], bc[x+2, y+1], bc[x+2, y])
         text.append(nibble(c2) nibble(c1))
 \end{verbatim}
 
@@ -293,7 +293,7 @@ algo decode:
 Die in \cite{paper} vorgeschlagene probabilistische Error Detection und Correction-Methode funktioniert folgendermassen (seien {\tt m}, {\tt s1}, {\tt s2} die Farben an den entsprechenden Position innerhalb des {\tt L}s):
 
 \begin{verbatim}
-algo color:
+algo detect_color:
     if m = s1:
         return m
     if s1 = s2:
@@ -301,13 +301,65 @@ algo color:
     return s2
 \end{verbatim}
 
-\section{Parallelisierung}
+\section{Bewertung des Verfahrens}
+\label{sec:bewertung}
 
+An der von \cite{paper} proklamierten Einfachheit und {\tt computational efficiency} des Verfahrens gibt es gar nichts auszusetzen: Unter der gültigen Annahme, dass sowohl {\tt color()} als auch {\tt nibble} als reine Hashtable-Lookup-Funktionen eine asymptotische Laufzeitkomplexität von (sei $x$ der Text oder der Barcode):
+\[
+f(x) \in \mathcal{O}(1)
+\]
+haben, beträgt die asymptotische Laufzeitkomplexität sowohl von {\tt encode} wie auch von {\tt decode}
+\[
+f(x) \in \mathcal{O}(|x|).
+\]
 
+Durch diese verfahrenstechnische Effizienz werden allerdings mehrere Mängel in Kauf genommen, die sich schnurstracks auf die Effektivität des Verfahrens auswirken:
 
+\begin{enumerate}
+\item Der Platz, den ein Byte an Information einnehmen kann, ist steht immer in einem festen Verhältnis zur gesamten Grösse des Barcodes (nämlich 6 Pixel). Dadurch hat ein resultierender Barcode immer automatisch die maximal mögliche Informationsdichte (was in den Abbildungen \ref{test:leer} und \ref{test:kant} sehr schön ersichtlich ist: da die zu codierenden Informationen weniger sind als die maximal mögliche Kapazität, bleibt ein geographisch zusammenhängender Teil des Barcodes ungenutzt, sprich schwarz).
+
+Reifere Verfahren nutzen hingegen immer den ganzen zur Verfügung stehenden Platz, indem sie dynamisch die Informationsdichte ausdünnen. Dadurch vergrössern sie die Toleranz gegenüber der Ungenauigkeit während des Lesens (welche in der Realität bei Scans oder Fotografien natürlich immer da ist).
+
+Das Verfahren könnte in dieser Hinsicht natürlich verbessert werden, weil die Länge der Information aus dem Header ersichtlich ist. Daraus liesse sich die physische Grösse eines Pixels berechnen. Allerdings ist der Header selber als mehrere Pixel codiert. Deshalb müsste trotzdem ein Verfahren implementiert werden, welches quasi die Grösse eines Pixels rekonstruiert -- was sich natürlich saftig in einer höheren Gesamtkomplexität niederschlagen würde.
+
+\item Das Verfahren beinhaltet keinerlei Paritätsprüfung der Daten. Abgesehen davon, dass die Farbwerte der gescannten Pixel exakt denjenigen in Tabelle \ref{tab:colormap} entsprechen müssen (was bei einem Scan in der Realität nur schon wegen den variierenden Lichtverhältnissen wegen sowieso utopisch ist), würde der als {\tt Error Correction und Detection}-Algorithmus \cite{paper} kolportierte Algorithmus {\tt detect\_color()} bei drei verschiedenen (und gemäss Tabelle \ref{tab:colormap} gültigen!) Farbwerten unreflektierterweise einfach den letzten der drei Werte als richtig erachten.
+
+Das Verfahren könnte verbessert werden, indem es um eine typische Paritätsprüfungsmethode ergänzt werden würde -- beispielsweise {\tt CRC}. Die aymptotische Komplexität würde nicht darunter leiden; der Seiteneffekt wäre allerdings, dass nicht mehr zwei Nibbles ein ganzes Byte ergeben würden und darum das Mapping zwischen Bytes und Zeichen massiv komplizierter würde.
+
+\end{enumerate}
 
 \chapter{Analyse, Design und Implementierung des Verfahrens}
-\label{sec:analyse}
+
+\section{Parallelisierung}
+
+Die Codierungs- und Decodierungs-Algorithmen selber sind einigermassen simpel. Der parallelisierbare Teil der beiden Algorithmen besteht allerdings nur aus dem Mapping-Teil, da der zu codierende Text oder das zu decodierende Bild natürlich nur auf jeweils einem Node des Clusters vorliegen.
+
+Da der Codierungs-Algorithmus mehr oder weniger die Umkehrfunktion des Decodierungs-Algorithmus ist, kann die Infrastruktur der beiden geteilt werden. Dadurch ist es möglich, die Parallelisierung vollständig aus den Algorithmen zu extrahieren: Sei {\tt algo} einer der beiden besprochenen Algorithmen mit diesen Teilalgorithmen:
+\begin{itemize}
+\item {\tt init}
+\item {\tt get\_sliced\_input}
+\item {\tt process\_slice}
+\item {\tt collect\_slice}
+\item {\tt finalize},
+\end{itemize}
+
+dann sieht die parallelisierte Ausführung von {\tt algo} auf dem Master-Node folgendermassen aus:
+
+\begin{verbatim}
+algo.init()
+for each slave node:
+    var in = get_sliced_input(slave)
+    invoke_slave(in)
+var my_in = get_my_input()
+algo.process_slice(my_input)
+result += algo.collect_slice(my_input)
+for each slave node:
+    result += algo.collect_slice(slave)
+algo.finalize()
+\end{verbatim}
+
+Die parallelisierte Ausführung auf einem Slave-Node besteht im Wesentlichen aus der Ausführung von {\tt algo.process\_slice()}.
+
 
 \chapter{Vergleich der Performancezeiten für ein, zwei oder mehrere CPU-Cores}
 
