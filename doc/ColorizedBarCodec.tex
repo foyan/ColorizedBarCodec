@@ -100,7 +100,57 @@
 
 \chapter{Einleitung}
 
+Diese Arbeit beschäftigt sich mit der von Md. Mashud Rana, M. E. Kawsar, M. E. Rabbani, S. M. M. Rashid und K. E. U. Ahmed vorgeschlagenen Methode des Lesens und Schreibens von farbigen zweidimensionalen Barcodes mit hoher Datenkapazität \cite{paper}.
+
+Sie beschreibt diese Methode, zeigt eine mögliche Umsetzung des Verfahrens in {\tt C++} mit Parallelisierung mittels {\tt MPI}, und macht eine quantitative Analyse der Implementation in Bezug auf die Performance. Zu guter Letzt zieht sie ein Fazit und überlegt sich den Sinn der angewandten Methode.
+
+Zur Arbeit gehören dieses Dokument sowie die Beispielimplementation. Beides kann von \url{https://github.com/foyan/ColorizedBarCodec} bezogen werden.
+
+Der Autor bedankt sich bei Dr. Alexander Herrigel für die Durchführung des Seminars.
+
 \chapter{Einführung in das Thema}
+
+\section{Existierende Technologien}
+
+Seit den 1970er-Jahren \cite{wiki:barcode} sind Barcodes aus Logistikbetrieben, Supermärkten etc. nicht mehr wegzudenken. Sie bilden das Rückgrat der automatisierten Warenbewirtschaftung. Das Scanning von eindimensionalen Barcodes wie in Abbildung \ref{fig:onedbarcode} ist milliardenfach erprobt und in der Entwicklung eigentlich abgeschlossen.
+
+\begin{figure}
+\label{fig:onedbarcode}
+\caption{Eindimensionaler Barcode (Quelle: Wikipedia)}
+\begin{center}
+\includegraphics[scale=0.4]{biltli/onedbarcode.png}
+\end{center}
+\end{figure}
+
+Die Informationsdichte von eindimensionalen Barcodes ist aber sehr beschränkt. Beispielsweise erlaubt die eindimensionale Symbologie UPC-A maximal eine Billion eindeutiger Barcodes \cite{wiki:upc}, was gemäss
+\[
+\log_2 10^{12} = 39.863\dots
+\]
+einer maximalen Kapazität von weniger als 5 Bytes entspricht.
+
+Aus diesem Grund wurden mit dem Aufkommen von billigen und sehr akkuraten Kameras in mobilen Devices zweidimensionale Symbologien entwickelt, welche es zumindest erlauben, ganze URLs von Webseiten oder ähnliches zu codieren. Google beispielsweise vermarktet den in Abbildung \ref{fig:qr} ersichtlichen, ursprünglich von Toyota entwickelten {\it Quick Response} Code (QR) \cite{wiki:qr}. Dieser erlaubt es immerhin, maximal 2953 Bytes zu codieren \cite{wiki:qr}.
+
+
+\begin{figure}
+\label{fig:qr}
+\caption{QR Code (Quelle: Wikipedia)}
+\begin{center}
+\includegraphics[scale=0.4]{biltli/qr.png}
+\end{center}
+\end{figure}
+
+Um die Kapazität weiter zu steigern, ist es nötig, eine dritte Dimension einzuführen. Weil aber Hologramme und 3D-Kameras noch nicht marktreif sind, liegt es nahe, die dritte Dimension als Farbe zu codieren. Microsoft geht in seiner Barcode-Technologie {\it High Capacity Color Barcode (HCCB)} seit 2007 \cite{wiki:hccb} genau diesen Weg \cite{ms:hccb}. Ein Beispiel ist in Abbildung \ref{fig:hccb} abgebildet. Die maximale Kapazität von HCCB kann nicht genau genannt werden, weil die Barcodes keine definierte Grösse und Skalierung haben. Labortests scheinen aber gezeigt zu haben, dass es möglich ist, circa 2000 Bytes auf eine Fläche zu codieren, welche nicht viel grösser als eine Ein-Cent-Münze ist. Diese Fläche scheint sich mit einem 600-dpi-Laserdrucker herstellen zu lassen \cite{ms:hccb}.
+
+
+\begin{figure}
+\label{fig:hccb}
+\caption{High Capacity Color Barcode (Quelle: Wikipedia)}
+\begin{center}
+\includegraphics[scale=0.4]{biltli/hccb.png}
+\end{center}
+\end{figure}
+
+\section{Vorgeschlagene Methode}
 
 \chapter{Randbedingungen}
 
