@@ -214,11 +214,32 @@ Wert & Nibble (binär) & RGB-Wert \\
 
 \chapter{Randbedingungen}
 
+Das beschriebene, untersuchte und implementierte Verfahren \cite{paper} impliziert in sich schon mehrere Randbedingungen beziehungsweise Einschränkungen bezüglich allgemeiner Brauchbarkeit, deren Diskussion in Kapitel \ref{sec:analyse} aufgenommen wird.
+
+Vorauseilend kann schon einmal gesagt werden, dass in Punkto Kapazitätserweiterung kein Fortschritt erreicht wird, weil der {\it QR}-Code intrinsisch schon eine höhere Kapazität aufweist, ohne allerdings den Vorteil der Farbdimension für sich reklamieren zu können.
+
+Diese Arbeit hat darum explizit nicht das Ziel, eine wirkliche Alternative oder eine sinnvolle Entwicklungsrichtung in Sachen Barcodes aufzuzeigen. Sie ist eher als Schulbeispiel zur Umsetzung einer einfachen Algorithmik mittels Parallelisierung zu verstehen.
+
 \chapter{Auswahl der Testdaten für die Arbeit}
+
+Die Aufgabe des Algorithmus ist, Text in ein Bild umzuformen und wieder zurück. Dementsprechend werden drei Texte ausgewählt, welche zusammen mit ihren entsprechenden Barcodes die Testdaten bilden:
+
+\begin{enumerate}
+\item Um den minimalen Fall zu testen, wird der leere Text ausgewählt.
+\item Um einen durchschnittlichen Fall zu testen, wird die Definition der Aufklärung von Immanuel Kant aus dessen Essay {\it Beantwortung der Frage: Was ist Aufklärung?} von 1784 \cite{kant} verwendet:
+
+\begin{quote}
+Aufklärung ist der Ausgang des Menschen aus seiner selbstverschuldeten Unmündigkeit. Unmündigkeit ist das Unvermögen, sich seines Verstandes ohne Leitung eines anderen zu bedienen. Selbstverschuldet ist diese Unmündigkeit, wenn die Ursache derselben nicht am Mangel des Verstandes, sondern der Entschliessung und des Muthes liegt, sich seiner ohne Leitung eines anderen zu bedienen. Sapere aude! Habe Muth, dich deines eigenen Verstandes zu bedienen! ist also der Wahlspruch der Aufklärung. \cite{wiki:kant}
+
+Die Länge dieses Textes beträgt 
+
+\end{quote}
+\end{enumerate}
 
 \chapter{Algorithmische Beschreibung des Verfahrens}
 
 \chapter{Analyse, Design und Implementierung des Verfahrens}
+\label{sec:analyse}
 
 \chapter{Vergleich der Performancezeiten für ein, zwei oder mehrere CPU-Cores}
 
