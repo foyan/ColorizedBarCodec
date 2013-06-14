@@ -152,6 +152,42 @@ Um die Kapazität weiter zu steigern, ist es nötig, eine dritte Dimension einzu
 
 \section{Vorgeschlagene Methode}
 
+Rana, Kawsar, Rabbani, Rashid und Achmed schlagen nun eine Methode vor, welche sich durch eine hohe Kapazität sowie ein sehr schnelles Leseverfahren auszeichnen soll \cite{paper}. Die grundlegenden Eckwerte sind die folgenden:
+
+\begin{itemize}
+\item Es werden 16 verschiedene Farben verwendet. Jede dieser Farben wird bijektiv einer Sequenz aus 4 Bits (Nibbles) zugeordnet (Tabelle \ref{tab:colormap}).
+\end{itemize}
+
+\begin{table}
+\label{tab:colormap}
+\caption{Zuordnung der Farben zu den Nibbles}
+\begin{center}
+\begin{tabular}{rrl}
+\toprule
+Wert & Nibble (binär) & RGB-Wert \\
+\midrule
+0 & {\tt 0000} & {\tt rgb(255, 000, 000)} \\
+1 & {\tt 0001} & {\tt rgb(000, 128, 000)} \\
+2 & {\tt 0010} & {\tt rgb(000, 000, 025)} \\
+3 & {\tt 0011} & {\tt rgb(165, 042, 042)} \\
+4 & {\tt 0100} & {\tt rgb(128, 000, 000)} \\
+5 & {\tt 0101} & {\tt rgb(100, 149, 237)} \\
+6 & {\tt 0110} & {\tt rgb(255, 165, 000)} \\
+7 & {\tt 0111} & {\tt rgb(255, 255, 000)} \\
+8 & {\tt 1000} & {\tt rgb(238, 130, 238)} \\
+9 & {\tt 1001} & {\tt rgb(128, 128, 128)} \\
+10 & {\tt 1010} & {\tt rgb(000, 000, 128)} \\
+11 & {\tt 1011} & {\tt rgb(000, 000, 000)} \\
+12 & {\tt 1100} & {\tt rgb(173, 255, 047)} \\
+13 & {\tt 1101} & {\tt rgb(138, 043, 226)} \\
+14 & {\tt 1110} & {\tt rgb(128, 000, 128)} \\
+15 & {\tt 1111} & {\tt rgb(095, 158, 160)} \\
+
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+
 \chapter{Randbedingungen}
 
 \chapter{Auswahl der Testdaten für die Arbeit}
