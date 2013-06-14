@@ -15,8 +15,17 @@ void decoder::init(int argc, char* argv[]) {
 
 	png::image<png::rgb_pixel> img(file);
 
+	int b = 0;
+	int length = 0;
+	int shift = 0;
+
+	colorizer col;
+
 	for (int y = 0; y < 100; y += 2) {
 		for (int x = 0; x < 102; x += 3) {
+			if (b >= length + 2) {
+				continue;
+			}
 			png::rgb_pixel x0y0 = img.get_pixel(x+0, y+0);
 			png::rgb_pixel x0y1 = img.get_pixel(x+0, y+1);
 			png::rgb_pixel x1y0 = img.get_pixel(x+1, y+0);
@@ -27,7 +36,18 @@ void decoder::init(int argc, char* argv[]) {
 			rgb p1 = this->get_color(x0y0, x0y1, x1y0);
 			rgb p2 = this->get_color(x2y0, x2y1, x1y1);
 
-			this->_pixels.push_back(pair<rgb, rgb>(p1, p2));
+			pair<rgb, rgb> pr(p1, p2);
+
+			if (b >= 2) {
+				this->_pixels.push_back(pr);
+			} else {
+				length += (col.get_byte(pr.first, pr.second) << shift);
+				shift += 8;
+				std::cout << "LENGTH:" << length << "]" << std::endl;
+			}
+
+			b++;
+
 		}
 	}
 

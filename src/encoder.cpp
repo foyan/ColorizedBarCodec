@@ -100,9 +100,8 @@ void encoder::finalize() {
 string encoder::encode_header(long long length) {
 	char seq[] = {
 			(length & binary(0000000011111111)) >> 0,
-			(length & binary(1111111100000000)) >> 8,
-			0,
-			0
+			(length & binary(1111111100000000)) >> 8
+
 	};
 	return string(seq);
 }
