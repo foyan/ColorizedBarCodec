@@ -240,6 +240,44 @@ Die Länge dieses Textes beträgt (nach Ersetzung von {\tt ß} durch {\tt ss} so
 
 \chapter{Algorithmische Beschreibung des Verfahrens}
 
+\section{Codieren des Barcodes}
+
+Der folgende Algorithmus beschreibt den Codierungsvorgang eines Barcodes (seien {\tt text} der zu codierende Text, {\tt width} und {\tt height} die Breite und Höhe des Barcodes, {\tt color()} die Nibble-Farbe-Abbildung und {\tt bc} der resultierende Barcode):
+
+\begin{verbatim}
+algo encode:
+    for i in [0..|text|-1]:
+        var x = (i*3) mod width
+        var y = (i*3) / width * 2
+        bc[x, y] = bc[x+1, y] = bc[x, y+1] = color(text[i].low)
+        bc[x+1, y+1] = bc[x+2, y+1] = bc[x+2, y] = color(text[i].high)
+\end{verbatim}
+
+\section{Decodieren des Barcodes}
+
+Der folgende Algorithmus beschreibt den Decodierungsvorgang eines Barcodes (seien {\tt bc} der zu dcodierende Barcode, {\tt width} und {\tt height} die Breite und Höhe des Barcodes, {\tt nibble()} die Farbe-Nibble-Abbildung, {\tt color()} der weiter unten beschriebene Error-Correction-Algorithmus und {\tt text} der resultierende Text):
+
+\begin{verbatim}
+algo decode:
+    for (y, x) in [0..height-1] x [0..width-1] step (2, 3):
+        var c1 = color(bc[x, y], bc[x+1, y], bc[x, y+1])
+        var c2 = color(bc[x+1, y+1], bc[x+2, y+1], bc[x+2, y])
+        text.append(nibble(c2) nibble(c1))
+\end{verbatim}
+
+\section{Error Correction}
+
+Die in \cite{paper} vorgeschlagene probabilistische Error Detection und Correction-Methode funktioniert folgendermassen (seien {\tt m}, {\tt s1}, {\tt s2} die Farben an den entsprechenden Position innerhalb des {\tt L}s:
+
+\begin{verbatim}
+algo color(:
+    for (y, x) in [0..height-1] x [0..width-1] step (2, 3):
+        var c1 = color(bc[x, y], bc[x+1, y], bc[x, y+1])
+        var c2 = color(bc[x+1, y+1], bc[x+2, y+1], bc[x+2, y])
+        text.append(nibble(c2) nibble(c1))
+\end{verbatim}
+
+
 \chapter{Analyse, Design und Implementierung des Verfahrens}
 \label{sec:analyse}
 
