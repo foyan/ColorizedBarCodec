@@ -360,10 +360,149 @@ algo.finalize()
 
 Die parallelisierte Ausführung auf einem Slave-Node besteht im Wesentlichen aus der Ausführung von {\tt algo.process\_slice()}.
 
+Weil die Ausführung der Parallelisierung nun nichts mehr mit dem Ausführen der Algorithmen zu tun hat, kann nun natürlich das Strategy-Pattern angewandt werden, um die Ausführungen austauschbar zu machen. Im folgenden ist der Code der Methode {\tt task\_runner\_factory::create\_task\_runner} abgebildet, welche anhand des zweiten Kommandozeilenparameters entweder einen {\tt MPI}- oder einen simplen nichtparallelisierten {\tt task\_runner} herstellt:
+
+\begin{lstlisting}
+task_runner* task_runner_factory::create_task_runner(int argc, char* argv[]) {
+
+	if (argc > 2 && strcmp(argv[2], "mpi") == 0) {
+		return new mpi_task_runner();
+	}
+
+	return new simple_task_runner();
+
+}
+\end{lstlisting}
+
+\section{Kommunikation der Nodes}
+
+Damit die Algorithmen über einen Strang geschlagen werden können, müssen sie von einer gemeinsamen Basisklasse ableiten -- {\tt task}:
+
+\begin{lstlisting}
+class task {
+
+public:
+	virtual void init(int argc, char* argv[]) = 0;
+	virtual void* get_sliced_input(int slice_index, int slice_count) = 0;
+	virtual void* process_slice(void* input) = 0;
+	virtual void collect_slice(void* slice, int slice_index, int slice_count) = 0;
+	virtual void finalize() = 0;
+
+	virtual void pack_input(pack&, void*) = 0;
+	virtual void pack_output(pack&, void*) = 0;
+	virtual void* unpack_input(pack&) = 0;
+	virtual void* unpack_output(pack&) = 0;
+
+	virtual ~task() { }
+};
+
+\end{lstlisting}
+
+Damit der operierende {\tt task\_runner} nicht wissen muss, welche Datentypen er in der {\tt MPI}-World herumschickt (und die Basisklasse dies natürlich noch weniger weiss), funktioniert die In-Process-Kommunikation über {\tt void}-Pointer, wovon die konkreten {\tt task}s die korrekten (und nur für sie selber relevanten) Typen durch Casting zurückgewinnen können.
+
+Ein Problem bleibt aber: Die verwendete {\tt boost\_serialization}-Library kann nur bekannte Typen serialisieren. Aus diesem Grund gibt es die {\tt pack}-Klasse, welche ein neutrales Paket machen kann, je nachdem ob {\tt string}s oder Pixel verschickt werden sollen:
+
+\begin{lstlisting}
+class pack {
+
+public:
+	string Str;
+	vector<pair<rgb, rgb>> Pixels;
+
+};
+
+namespace boost {
+	namespace serialization {
+
+		template<typename Archive>
+		void serialize (Archive& ar, pack& r, const unsigned int version) {
+			ar & r.Str;
+			ar & r.Pixels;
+		}
+
+	}
+}
+\end{lstlisting}
+
+Die verschiedenen {\tt (un)pack\_*}-Methoden der einzelnen {\tt task}s werden dann vom {\tt task\_runner} entsprechend an der richtigen Stelle aufgerufen, um die Pakete entsprechend vor- oder nachzubereiten.
+
+\section{Mapping}
+
+Das Mapping von Farben zu Nibbles ist bijektiv, ergo braucht es für die Implementation eine bidirektionale {\tt map<>}\footnote{Auf ein explizites Mapping von Bytes zu Zeichen wie in \cite{paper} vorgeschlagen wurde verzichtet -- es scheint keinen sinnvollen Grund zu geben, in dieser Beziehung nicht die normale {\tt ASCII}-Codierung zu verwenden.}. In {\tt boost} wird man mit der {\tt bimap<>} natürlich fündig. Da diese Map von {\tt unsigned short} zur benutzerdefinierten Klasse {\tt rgb} abbildet und wieder zurück, muss eine natürliche Ordnung auf {\tt rgb} implementiert werden, damit {\tt bimap<>} die Eindeutigkeit garantieren kann. Dies wird über die Spezialisierung des Templates {\tt std::less<>} gelöst:
+\begin{lstlisting}
+namespace std {
+
+	template<> struct less<rgb> : binary_function<rgb, rgb, bool> {
+		bool operator() (const rgb& a, const rgb& b) const {
+			if (a.r() < b.r()) {
+				return true;
+			}
+			if (a.r() > b.r()) {
+				return false;
+			}
+			if (a.g() < b.g()) {
+				return true;
+			}
+			if (a.g() > b.g()) {
+				return false;
+			}
+			return a.b() < b.b();
+		}
+	};
+
+}
+\end{lstlisting}
+
+\section{Design-technische Übersicht}
+
+Der Rest der Implementation ist eigentlich Schema F -- die besprochenen Algorithmen werden mehr oder weniger 1:1 implementiert, das Übrige das Bemühen von {\tt libpng} für IO mit dem Bild und das Zershreddern und Zusammenführen von {\tt string}s und {\tt vector<>}s. Stellvertretend illustriert Abbildung \ref{fig:arch} die Klassenarchitektur der Implementation.
+
+\begin{figure}
+\caption{Architektur}
+\label{fig:arch}
+\begin{center}
+\includegraphics[scale=0.5]{biltli/arch.pdf}
+\end{center}
+\end{figure}
 
 \chapter{Vergleich der Performancezeiten für ein, zwei oder mehrere CPU-Cores}
 
+In Tabelle \ref{tab:perf} sind die durchschnittlichen Ausführungszeiten pro Testfall (minimal, durchschnittlich und maximal), Algorithmus und Anzahl Cores angegeben. Die Zeiten sind in Millisekunden, und es wurden jeweils fünf Ausführungen durchgeführt.
+
+Das Tests wurden auf einem virtuellen Debian Wheezy mit 1 GB RAM und 4 vom Hostbetriebssystem (Windows 8) zugewiesenen Prozessorkernen durchgeführt.
+
+Es sticht ins Auge, dass die Ausführungszeit besser ist, je {\it weniger} parallelisiert wird. Dies kann dadurch erklärt werden, dass der parallelisierbare Teil des Verfahrens trivial ist und gegenüber dem Kommunikations-Overhead sich praktisch in Nichts auflöst.
+
+Der notorisch bessere Performance von {\tt decode} gegenüber {\tt encode} lässt sich dadurch erklären, dass das Schreiben eines {\tt png}-Files mehr Zeit benötigt als das Lesen desselben.
+
+\begin{table}
+\caption{Durchschnittliche Ausführungszeiten [ms]}
+\label{tab:perf}
+\begin{center}
+\begin{tabular}{lrrrr}
+\toprule
+Testfall & 1 Core & 2 Cores & 4 Cores\\
+\midrule
+minimal -- {\tt encode} & 1.306 & 2.367 & 4.513  \\
+minimal -- {\tt decode} & 0.721 & 1.780 & 4.879  \\
+durchschnittlich -- {\tt encode} & 2.801 & 4.979 & 9.262 \\
+durchschnittlich -- {\tt decode} & 1.206 & 4.303 & 6.830\\
+maximal -- {\tt encode} & 5.582 & 15.965 & 17.742  \\
+maximal -- {\tt decode} & 3.023 & 14.462 & 15.023 \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+
 \chapter{Zusammenfassung}
+
+Zusammenfassend kann man sagen, dass wir einiges über Barcode-Methodiken, -Verfahren und -Formate als solche gelernt haben. Insbesondere haben wir erfahren, dass sich das besprochene Verfahren gut dafür eignet, das grundsätzliche Prinzip zu illustrieren -- im praktischen Einsatz ist es aber wegen seiner gravierenden Mängel und Unfertigkeiten nicht zu gebrauchen. Es gibt natürlich Möglichkeiten, dieses Verfahren zu verbessern -- es würde dann aber einiges an seiner Einfachheit einbüssen.
+
+Des weiteren haben wir gesehen, dass sich dieses Verfahren nur bedingt sinnvoll parallelisieren lässt -- dies vor allem darum, weil das Auseinandernehmen und Zusammenführen des Problemfelds den Geschwindigkeitszuwachs des parallelisierbaren Teils wieder zunichte macht. Anders würde es wohl aussehen, wenn wir versuchen würden, Milliarden von Bytes in einen einzigen Barcode zu quetschen.
+
+Zu guter Letzt haben wir gesehen, wie sich ein Algorithmus von seiner parallelen Ausführung in der Implementation trennen lässt -- mit den besprochenen Mühsamitäten durch das generische Transportieren der Payload-Daten.
+
+Durch diese Trennung wäre es möglich, die {\tt MPI}-basierende Parallelisierung sehr einfach durch eine Thread-basierte zu ersetzen. Dies dürfte dann performancemässig einiges bringen, weil die Serialisierung und Deserialisierung der Daten damit entfällt. Die Synchronisation der Ressourcen müsste natürlich trotzdem sichergestellt werden -- aber dafür existieren minimalinvasive Pattern und Hilfsmittel wie beispielsweise Reader/Writer-Locks.
 
 \bibliography{biblio}
 \bibliographystyle{plain}
