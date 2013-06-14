@@ -115,8 +115,8 @@ Der Autor bedankt sich bei Dr. Alexander Herrigel für die Durchführung des Sem
 Seit den 1970er-Jahren \cite{wiki:barcode} sind Barcodes aus Logistikbetrieben, Supermärkten etc. nicht mehr wegzudenken. Sie bilden das Rückgrat der automatisierten Warenbewirtschaftung. Das Scanning von eindimensionalen Barcodes wie in Abbildung \ref{fig:onedbarcode} ist milliardenfach erprobt und in der Entwicklung eigentlich abgeschlossen.
 
 \begin{figure}
-\label{fig:onedbarcode}
 \caption{Eindimensionaler Barcode (Quelle: Wikipedia)}
+\label{fig:onedbarcode}
 \begin{center}
 \includegraphics[scale=0.4]{biltli/onedbarcode.png}
 \end{center}
@@ -132,8 +132,8 @@ Aus diesem Grund wurden mit dem Aufkommen von billigen und sehr akkuraten Kamera
 
 
 \begin{figure}
-\label{fig:qr}
 \caption{QR Code (Quelle: Wikipedia)}
+\label{fig:qr}
 \begin{center}
 \includegraphics[scale=0.4]{biltli/qr.png}
 \end{center}
@@ -143,8 +143,8 @@ Um die Kapazität weiter zu steigern, ist es nötig, eine dritte Dimension einzu
 
 
 \begin{figure}
-\label{fig:hccb}
 \caption{High Capacity Color Barcode (Quelle: Wikipedia)}
+\label{fig:hccb}
 \begin{center}
 \includegraphics[scale=0.4]{biltli/hccb.png}
 \end{center}
@@ -155,12 +155,26 @@ Um die Kapazität weiter zu steigern, ist es nötig, eine dritte Dimension einzu
 Rana, Kawsar, Rabbani, Rashid und Achmed schlagen nun eine Methode vor, welche sich durch eine hohe Kapazität sowie ein sehr schnelles Leseverfahren auszeichnen soll \cite{paper}. Die grundlegenden Eckwerte sind die folgenden:
 
 \begin{itemize}
-\item Es werden 16 verschiedene Farben verwendet. Jede dieser Farben wird bijektiv einer Sequenz aus 4 Bits (Nibbles) zugeordnet (Tabelle \ref{tab:colormap}).
+\item Es werden 16 verschiedene Farben verwendet. Jede dieser Farben wird bijektiv einer Sequenz aus 4 Bits (Nibbles) zugeordnet (siehe Tabelle \ref{tab:colormap}, \cite{paper}).
+
+\item Jedes Byte wird auf ein Zeichen abgebildet (siehe \cite{paper}).
+
+\item Die Fläche des Barcodes wird in ein $102 \times 100$ Zellen fassendes Raster aufgeteilt (im folgenden als Pixel bezeichnet). Bei einer angenommenen realen Grösse des Barcodes von $1.5 \times 1.15$ Zoll \cite{paper} ergibt sich daraus eine horizontale Auflösung von 68 DPI und eine vertikale Auflösung von 87 DPI.
+
+\item Jeweils 6 benachbarte Pixel in einem $3 \times 2$-Feld codieren nun ein Byte, wobei ein ein vertikal gespiegeltes {\tt L} für den ersten Nibble und ein horizontal gespiegeltes {\tt L} für den zweiten Nibble entstehen (Abbildung \ref{fig:onebyte}). Über die Reihenfolge der Wertigkeit der Nibbles wird keine Vorschrift gemacht -- die abgebildete Rot/Grün-Kombination könnte also sowohl als {\tt 0000 0001} $=1$ als auch als {\tt 0001 0000} $=16$ interpretiert werden.
+
 \end{itemize}
 
+Weil je nach codierter Information die Länge der Codierung variiert, schlägt \cite{paper} vor, die ersten Nibbles als Header zu reservieren\footnote{Bezüglich der Länge des Headers werden in \cite{paper} widersprüchliche Aussagen gemacht. Der Text reserviert die ersten 12 Pixel, was einer Länge von 2 Bytes entsprechen würde, wogegen die dazugehörige Abbildung eine Länge von 9 Pixeln kolportiert, was einer Länge von 1.5 Bytes entsprechen würde. Im Nachfolgenden wird darum eine Headerlänge von 2 Bytes angenommen.}, welche als Information nur die Länge der nachfolgenden Informationen enthalten.
+
+Die maximale Kapazität des Barcodes ist darum
+\[
+C = \frac{102 \operatorname{px} \cdot 100 \operatorname {px}}{6 \operatorname{px}^2 / \operatorname{byte}} - 2 \operatorname{bytes} = 1698 \operatorname{bytes}.
+\]
+
 \begin{table}
-\label{tab:colormap}
 \caption{Zuordnung der Farben zu den Nibbles}
+\label{tab:colormap}
 \begin{center}
 \begin{tabular}{rrl}
 \toprule
@@ -188,6 +202,16 @@ Wert & Nibble (binär) & RGB-Wert \\
 \end{center}
 \end{table}
 
+
+\begin{figure}
+\caption{Ein Byte in der vorgeschlagenen Methodik}
+\label{fig:onebyte}
+\begin{center}
+\includegraphics[scale=10]{biltli/onebyte.png}
+\end{center}
+\end{figure}
+
+
 \chapter{Randbedingungen}
 
 \chapter{Auswahl der Testdaten für die Arbeit}
@@ -202,6 +226,9 @@ Wert & Nibble (binär) & RGB-Wert \\
 
 \bibliography{biblio}
 \bibliographystyle{plain}
+
+\listoffigures
+\listoftables
 
 
 \end{document}
