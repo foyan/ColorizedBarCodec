@@ -225,16 +225,39 @@ Diese Arbeit hat darum explizit nicht das Ziel, eine wirkliche Alternative oder 
 Die Aufgabe des Algorithmus ist, Text in ein Bild umzuformen und wieder zurück. Dementsprechend werden drei Texte ausgewählt, welche zusammen mit ihren entsprechenden Barcodes die Testdaten bilden:
 
 \begin{enumerate}
-\item Um den minimalen Fall zu testen, wird der leere Text ausgewählt.
+\item Um den minimalen Fall zu testen, wird der leere Text ausgewählt. Der korrespondierende Barcode ist in Abbildung \ref{test:leer} zu sehen.
 \item Um einen durchschnittlichen Fall zu testen, wird die Definition der Aufklärung von Immanuel Kant aus dessen Essay {\it Beantwortung der Frage: Was ist Aufklärung?} von 1784 \cite{kant} verwendet:
 
 \begin{quote}
 Aufklärung ist der Ausgang des Menschen aus seiner selbstverschuldeten Unmündigkeit. Unmündigkeit ist das Unvermögen, sich seines Verstandes ohne Leitung eines anderen zu bedienen. Selbstverschuldet ist diese Unmündigkeit, wenn die Ursache derselben nicht am Mangel des Verstandes, sondern der Entschliessung und des Muthes liegt, sich seiner ohne Leitung eines anderen zu bedienen. Sapere aude! Habe Muth, dich deines eigenen Verstandes zu bedienen! ist also der Wahlspruch der Aufklärung. \cite{wiki:kant}
 
 \end{quote}
-Die Länge dieses Textes beträgt (nach Ersetzung von {\tt ß} durch {\tt ss} sowie dem Einfügen einiger Zeilenumbrüche wegen der besseren Lesbarkeit) exakt 500 Bytes, was einer Ausnutzung der Kapazität von 29.4 Prozent entspricht.
+Die Länge dieses Textes beträgt (nach Ersetzung von {\tt ß} durch {\tt ss} sowie dem Einfügen einiger Zeilenumbrüche wegen der besseren Lesbarkeit) exakt 500 Bytes, was einer Ausnutzung der Kapazität von 29.4 Prozent entspricht. Der korrespondierende Barcode ist in Abbildung \ref{test:kant} zu sehen.
 
-\item Um den maximalen Fall zu testen, wird ebendieser Text solange wiederholt, bis die maximale Kapazität erreicht ist.
+\item Um den maximalen Fall zu testen, wird ebendieser Text solange wiederholt, bis die maximale Kapazität erreicht ist. Der korrespondierende Barcode ist in Abbildung \ref{test:kantkant} zu sehen.
+
+\begin{figure}
+\caption{Der leere Barcode}
+\label{test:leer}
+\begin{center}
+\includegraphics[scale=1.4]{../leer.png}
+\end{center}
+\end{figure}
+\begin{figure}
+\caption{Die Antwort auf die Frage: Was ist Aufklärung? als Barcode}
+\label{fig:onebyte}
+\begin{center}
+\includegraphics[scale=1.4]{../kant.png}
+\end{center}
+\end{figure}
+\begin{figure}
+\caption{Möglichst viel Kant in einem Barcode}
+\label{fig:onebyte}
+\begin{center}
+\includegraphics[scale=1.4]{../kantkant.png}
+\end{center}
+\end{figure}
+
 
 \end{enumerate}
 
@@ -277,6 +300,10 @@ algo color:
         return s1
     return s2
 \end{verbatim}
+
+\section{Parallelisierung}
+
+
 
 
 \chapter{Analyse, Design und Implementierung des Verfahrens}
