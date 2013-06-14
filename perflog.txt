@@ -1,35 +1,35 @@
 Minimal 1 Core encode
 
-2.074
-3.746
-2.584
+3.711
+6.268
+6.767
 
 Minimal 1 Core decore
 
-1.296
-1.262
-1.061
+2.841
+2.658
+3.572
 
 Minimal 2 Cores encode
 
-6.748
-4.122
-4.068
+16.991
+15.128
+15.777
 
 Minimal 2 Cores decode
 
-3.946
-3.901
-5.062
+2.841
+2.658
+3.572
 
 Minimal 4 Cores encode
-8.475
-9.17
-10.141
+20.455
+17.842
+14.93
 
 Minimal 4 Cores decode
-6.554
-5.915
-8.021
+2.841
+2.658
+3.572
 
 
