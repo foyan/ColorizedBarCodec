@@ -103,7 +103,10 @@ string encoder::encode_header(long long length) {
 			(length & binary(1111111100000000)) >> 8
 
 	};
-	return string(seq);
+	string s = "  ";
+	s[0] = seq[0];
+	s[1] = seq[1];
+	return s;
 }
 
 void encoder::pack_input(pack &p, void* data) {
