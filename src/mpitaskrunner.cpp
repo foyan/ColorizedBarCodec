@@ -1,8 +1,10 @@
+#include <boost/mpi.hpp>
+#include <boost/serialization/utility.hpp>
+
 #include "mpitaskrunner.h"
 #include "task.h"
 #include "pack.h"
-#include <boost/mpi.hpp>
-#include <boost/serialization/utility.hpp>
+#include "stopwatch.h"
 
 namespace mpi = boost::mpi;
 
@@ -12,6 +14,9 @@ void mpi_task_runner::run(task* t, int argc, char* argv[]) {
 	mpi::communicator world;
 
 	if (world.rank() == MASTER) {
+
+		stopwatch sw;
+
 		t->init(argc, argv);
 
 		for (int rank = 0; rank < world.size(); rank++) {
@@ -21,7 +26,7 @@ void mpi_task_runner::run(task* t, int argc, char* argv[]) {
 				pack ipack;
 				t->pack_input(ipack, slice_input);
 
-				world.send(rank, TAG, ipack);
+				world.isend(rank, TAG, ipack);
 			}
 		}
 
@@ -42,8 +47,13 @@ void mpi_task_runner::run(task* t, int argc, char* argv[]) {
 
 		t->finalize();
 
+		sw.stop();
+		cout << "MASTER node finished in " << sw.elapsed() << " ms." << endl;
+
 
 	} else {
+
+		stopwatch sw;
 
 		pack ipack;
 		world.recv(MASTER, TAG, ipack);
@@ -53,7 +63,11 @@ void mpi_task_runner::run(task* t, int argc, char* argv[]) {
 
 		pack opack;
 		t->pack_output(opack, slice_output);
-		world.send(MASTER, TAG, opack);
+		world.isend(MASTER, TAG, opack);
+
+		sw.stop();
+
+		cout << "non-MASTER node #" << world.rank() << " finished in " << sw.elapsed() << " ms." << endl;
 
 	}
 
