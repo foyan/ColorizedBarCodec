@@ -43,7 +43,6 @@ void decoder::init(int argc, char* argv[]) {
 			} else {
 				length += (col.get_byte(pr.first, pr.second) << shift);
 				shift += 8;
-				std::cout << "LENGTH:" << length << "]" << std::endl;
 			}
 
 			b++;

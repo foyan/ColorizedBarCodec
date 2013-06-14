@@ -95,6 +95,7 @@ void encoder::finalize() {
 	}
 
 	image.write(this->_png_filename);
+	std::cout << "Wrote output to " << this->_png_filename << std::endl;
 }
 
 string encoder::encode_header(long long length) {
